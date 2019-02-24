@@ -1,0 +1,95 @@
+/*Extra small media*/
+@media(max-width: 575px){
+.banner-content {
+	padding-top: 136px;
+}
+.banner-content h1 {
+	font-size: 25px;
+}
+.navbar-collapse {
+	background: #3a3e64;
+	text-align: center;
+    margin-top: 10px;
+}
+.navbar-toggler {
+	background-color: #fff;	
+}
+    
+.banner-content {
+	padding-bottom: 80px;
+}
+#service {
+	padding-top: 70px;
+}  
+.card-body {
+	margin-bottom: 30px;
+}
+#team {
+	padding: 40px 0;
+}
+.feed-text {
+	padding-top: 20px;
+}
+.feed-text h5 {
+	font-size: 23px;
+	padding-right: 0px;
+} 
+.footer-text h5 {
+	padding-top: 35px;
+	font-size: 14px;
+} 
+.down-text h5 {
+	margin-top: -30px;
+    font-size: 26px;
+} 
+#footer {
+	margin-top: 70px;
+	padding-bottom: 30px;
+}
+.footer-text p {
+	font-size: 13px;
+}
+.overlay {
+    padding-top: 180px;
+}
+.feed-text h5 {
+	padding-right: 82px;
+}
+}
+/* small media*/
+@media(min-width:576px) and (max-width:767px){
+.banner-content {
+	padding-top: 136px;
+}
+.banner-content h1 {
+	font-size: 25px;
+}
+.navbar-collapse {
+	background: #3a3e64;
+	text-align: center;
+    margin-top: 10px;
+}
+.navbar-toggler {
+	background-color: #fff;	
+}
+    
+.banner-content {
+	padding-bottom: 80px;
+}
+.overlay {
+    padding-top: 180px;
+}
+.card {
+
+	margin-bottom: 40px;
+}
+ .feed-text h5 {
+	padding-right: 184px;
+}
+.feed-text {
+	padding-top: 35px;
+}
+    
+}
+/*medium media*/
+

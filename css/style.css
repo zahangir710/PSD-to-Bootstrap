@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+ul, li{
+    list-style-type: none;
+}
+@font-face{
+    src: url(../font/Raleway-Bold.ttf);
+    font-family:rb;
+}
+@font-face{
+    src: url(../font/OpenSans-Bold.ttf);
+    font-family:osb;
+}
+@font-face{
+    src: url(../font/Raleway-Regular.ttf);
+    font-family:rr;
+}
+@font-face{
+    src: url(../font/Raleway-SemiBold.ttf);
+    font-family:rsb;
+}
+@font-face{
+    src: url(../font/Cardo-Italic.ttf);
+    font-family:ci;
+}
+@font-face{
+    src: url(../font/Raleway-Light.ttf);
+    font-family:rl;
+}
+
+/*Navbar part css*/
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 15px;
+	padding-left: 15px;
+    transition: all linear .3s;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    font-family: rb;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #e84545;
+}
+.navbar{
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 9999;
+}
+/*Banner part css*/
+#banner{
+    position: relative;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#banner:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(49, 53, 80, 0.76);
+}
+.banner-content{
+    position: relative;
+    z-index: 99;
+    padding-top: 235px;
+    padding-bottom: 155px;
+}
+.banner-content h1{
+    font-size: 65px;
+    font-family: osb;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner-content p{
+    padding-top: 12px;
+    padding-bottom: 62px;
+    font-size: 22px;
+    font-family: rr;
+    color: #fff;
+    line-height: 33px;
+}
+.banner-content a{
+    padding: 20px 55px;
+    text-transform: uppercase;
+    background: #e84545;
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: rsb;
+    color: #fff;
+    transition: all linear .3s;
+}
+.banner-content a:hover{
+    color: #2f334c;
+}
+/*service part css*/
+#service{
+    padding-top: 120px;
+}
+.service h3{
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-family: rb;
+    color: #2d3033;
+    text-transform: uppercase;
+}
+.service p{
+    font-size: 14px;
+    font-family: rr;
+    color: #6c7279;
+    line-height: 21px;
+    padding-bottom: 58px;
+}
+/*portfolio part css*/
+#portfolio{
+    padding-top: 50px;
+}
+.port-item{
+    position: relative;
+}
+.overlay{
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(229, 81, 81, 0.7);
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.overlay h3{
+    font-family: rb;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.overlay p{
+    font-family: rr;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.port-item:hover .overlay{
+    transform: scale(1);
+}
+/*Team part css start*/
+#team{
+    padding: 100px 0; 
+}
+.card{
+    border: 0;
+}
+.card-body{
+    padding: 0;
+    padding-top: 20px;
+}
+.card-titel{
+    font-family: rr;
+    font-size: 22px;
+    color: #2d3033;
+}
+.card-body h6{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: rr;
+    color: #e84545;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.card-text{
+    font-size: 14px;
+    font-family: rr;
+    color: #6c7279;
+    line-height: 21px;
+}
+.social i{
+    color: #c6cacc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #c6cacc;
+    text-align: center; 
+    transition: all linear .3s;
+}
+.social i:hover{
+    background: #e84545;
+    color: #fff;
+    border: 1px solid #e84545;
+}
+/*feedback part css*/
+#feedback{
+    background: #53354a;
+    margin-bottom: 100px;
+}
+.feed-text{
+    padding-top: 80px;
+}
+.feed-text h5{
+    font-family: ci;
+    font-size: 36px;
+    color: #fff;
+    line-height: 42px;
+    padding-right: 100px;
+}
+.feed-text p{
+    padding-top: 10px;
+    font-family: rb;
+    font-size: 13px;
+    color: #fff;
+}
+/*feedback part css*/
+.down-text h5{
+    font-family: rl;
+    font-size: 28px;
+    color: #2d3033;
+}
+.down-text p{
+    font-family: rb;
+    font-size: 13px;
+    color: #2d3033;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+.down-text a{
+    text-transform: uppercase;
+    font-size:13px;
+    font-family:rsb;
+    padding: 20px 80px;
+    background: #e84545;
+    border-radius: 3px;
+    color: #fff;
+    transition: all linear .3s;
+}
+.down-text a:hover{
+    color: #2f334c;
+}
+/*Footer upper part css*/
+#footer{
+    margin-top: 120px;
+    background: #3a3e64;
+    padding-bottom: 85px;
+}
+.footer-text h5{
+    padding-bottom: 5px;
+    padding-top: 70px;
+    text-transform: uppercase;
+    font-family: rb;
+    font-size: 14px;
+    color: #fff;
+}
+.footer-text p{
+    font-family: rr;
+    font-size: 14px;
+    color: #afb0bc;
+    margin-bottom: 0;
+}
+.p{
+    font-family: rr;
+    font-size: 13px;
+    color: #afb0bc;
+    text-transform: uppercase;
+}
+.height{
+    line-height: 23px;
+}
+/*footer down part css*/
+#footer-down{
+    padding: 30px 0;
+    background: #313454;
+}
+.q{
+    color: #afb0bc;
+    font-size: 14px;
+    font-family: osr;
+}
+.r{
+    color: #fff;
+    font-size: 14px;
+    font-family: osr;
+}
+.q i{
+    color: #e84545;
+}
