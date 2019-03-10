@@ -4,7 +4,7 @@
 	padding-top: 136px;
 }
 .banner-content h1 {
-	font-size: 25px;
+	font-size: 24px;
 }
 .navbar-collapse {
 	background: #3a3e64;
@@ -23,6 +23,7 @@
 }  
 .card-body {
 	margin-bottom: 30px;
+	margin-left: 15px;
 }
 #team {
 	padding: 40px 0;
@@ -31,17 +32,21 @@
 	padding-top: 20px;
 }
 .feed-text h5 {
-	font-size: 23px;
-	padding-right: 0px;
-} 
+	padding-right: 10px;
+	padding-left: 20px;
+}
+.feed-text p {
+	padding-left: 20px;
+}
 .footer-text h5 {
 	padding-top: 35px;
 	font-size: 14px;
 } 
 .down-text h5 {
-	margin-top: -30px;
-    font-size: 26px;
-} 
+	margin-top: -50px;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
 #footer {
 	margin-top: 70px;
 	padding-bottom: 30px;
@@ -50,16 +55,33 @@
 	font-size: 13px;
 }
 .overlay {
-    padding-top: 180px;
+	padding-top: 30%;
 }
 .feed-text h5 {
-	padding-right: 82px;
+	padding-right: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding: 15px 0px;
+}
+.banner-content h1 {
+	padding: 5px 15px;
+}
+.service p {
+	padding: 0px 70px;
+	padding-bottom: 58px;
 }
 }
 /* small media*/
 @media(min-width:576px) and (max-width:767px){
 .banner-content {
 	padding-top: 136px;
+}
+.navbar-light .navbar-toggler {
+	border-color: none;
+	color: #fff;
+	font-size: 36px;
 }
 .banner-content h1 {
 	font-size: 25px;
@@ -69,10 +91,7 @@
 	text-align: center;
     margin-top: 10px;
 }
-.navbar-toggler {
-	background-color: #fff;	
-}
-    
+ 
 .banner-content {
 	padding-bottom: 80px;
 }
@@ -83,13 +102,118 @@
 
 	margin-bottom: 40px;
 }
- .feed-text h5 {
-	padding-right: 184px;
+.feed-text h5 {
+	padding-right: 65px;
+	padding-left: 20px;
+}
+.feed-text p {
+	padding-left: 20px;
 }
 .feed-text {
 	padding-top: 35px;
 }
-    
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding: 15px 0px;
+}
+.navbar-light .navbar-toggler {
+	font-size: 25px;
+	color: #3a3e64;
+	background: #fff;
+} 
+.service{
+        margin: 0px 15px;
+}
+.card {
+	margin: 40px 10px;
+}
+#team {
+	padding: 60px 0;
+}
+.down-text h5 {
+	padding: 0px 34px;
+	padding-bottom: 20px;
+}
 }
 /*medium media*/
+@media(min-width:768px) and (max-width:991px){
+.navbar-light .navbar-toggler {
+	font-size: 25px;
+	color: #3a3e64;
+	background: #fff;
+} 
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding: 19px 0px;
+}
+.banner-content {
+	padding-top: 180px;
 
+}
+.banner-content h1 {
+	font-size: 40px;
+}
+.navbar-collapse {
+	background: #3a3e64;
+	text-align: center;
+    margin-top: 10px;
+}
+.card {
+    margin: 30px 40px;
+}
+.feed-text {
+	padding-top: 10px;
+}
+.feed-text h5 {
+	font-size: 32px;
+	line-height: 40px;
+	padding-right: 20px;
+	padding-left: 10px;
+}  
+.feed-text p {
+	padding-left: 10px;
+}
+#feedback {
+	margin-bottom: 60px;
+}
+#team {
+	padding: 50px 0;
+}
+.footer-text p {
+	padding: 0px 0px;
+}
+#footer {
+	margin-top: 80px;
+	padding-bottom: 30px;
+}  
+#footer-down {
+	padding: 24px 0;
+}
+.down-text h5 {
+	padding: 0px 42px;
+    padding-bottom: 20px;
+}
+.footer-text p {
+	font-size: 10px;
+}
+.q {
+	font-size: 13px;
+}
+.r {
+	font-size: 13px;
+}
+}
+/*Large device*/
+@media(min-width:992px) and (max-width:1199px){
+.feed-text {
+	padding-top: 15px;
+}
+.feed-text h5 {
+	padding-right: 20px;
+}
+.banner-content h1 {
+	font-size: 56px;
+}
+}
